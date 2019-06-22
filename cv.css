@@ -1,0 +1,103 @@
+﻿body {
+    background-image: url(image/fondeau_compr.jpg) ;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.conteneur {
+    display: flex ;
+    width: 827px ;
+    height : 1170px;
+    flex-direction: column;
+    flex-wrap: wrap ;  /* le retour a la ligne des bloc est autorisé */
+    margin : auto ;  /*centrer le conteneur */
+    background-color: yellowgreen;
+    border-width: 2px;
+    border-color: black;
+    border-style: groove;
+    box-shadow:  6px 6px 12px black ;
+     
+}
+
+
+.bloc1 {
+    background-color: rgb(25, 31, 105) ;
+    width: 227px ;
+    height:227px;
+}
+
+
+#photoid {
+    width: 120px;
+    margin: 10px 20px 0px 20px;
+}
+
+
+figcaption {
+    color: rgb(226, 226, 226) ;
+    text-align: center ;
+    font-weight: bold ;
+    font-size: 0.9em;
+}
+
+
+.bloc2 {
+    background-color: rgb(43, 10, 73);
+    width: 227px ;
+    height:  943px ;
+}
+
+
+.bloc3 {
+    background-color :rgb(226, 226, 226) ;
+    width: 600px ;
+    height : 1170px ;
+
+}
+
+
+.presentation {
+    color :black ;
+    text-align: justify;
+    margin: 0px 50px 30px 50px ;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 1.4em ;
+    font-style: normal ;
+    text-align: center ;
+    margin: 0px 20px 0px 20px ;
+}
+
+
+.miniature {
+    float : left;
+    width: 40px;
+    border : 0.2px rgba(37, 37, 37, 0.767) solid ;
+}
+
+
+h2 {
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 1.1em ;
+    font-weight: bold ;
+    text-align: center ;
+}
+
+
+a { /* Liens par défaut (non survolés) */
+   color: black;
+   text-decoration: none;
+   font-style: normal;
+}
+
+
+a:hover {   /* Apparence au survol des liens */
+    color : rgb(25, 0, 31);
+    font-weight : bold ;
+}
+
+
+
